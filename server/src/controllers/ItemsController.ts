@@ -9,7 +9,7 @@ class ItemsController {
         const serializedItems = items.map(item => {
             return {
                 title: item.title,
-                image_url: `http://localhost:3333/uploads/${item.image}`,
+                image_url: `http://c59c5773a484.ngrok.io/uploads/${item.image}`,
                 id: item.id
             }
         })
